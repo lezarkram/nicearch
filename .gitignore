@@ -1,0 +1,23 @@
+# 1. Ignore everything in .config by default
+*
+
+# 2. Allow Git to traverse subdirectories
+!*/
+
+# 3. Explicitly allow .gitignore itself
+!.gitignore
+
+# 4. Global file cleanup for whitelisted directories
+*.log
+*.socket
+*.cache
+*.db
+*.ldb
+*.sqlite*
+.vscode/
+
+# 5. Explicitly allow the directories and their contents
+!hypr/
+!hypr/**
+!waybar/
+!waybar/**

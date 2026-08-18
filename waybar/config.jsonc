@@ -6,16 +6,15 @@
         "cava"
     ],
     "modules-center": [
-        "clock",
         "hyprland/workspaces",
-        "clock#right"
     ],
     "modules-right": [
+        "clock",
         "battery"
     ],
     "battery": {
-        "interval": 60,
-        "format": "{icon} `{capacity}% ",
+        "interval": 5,
+        "format": "{icon} {capacity}% ",
         "format-icons": {
             "default": [
                 "󰂎",
@@ -46,7 +45,7 @@
         }
     },
     "clock": {
-        "format-alt": "{:%a, %d. %b  %H:%M}"
+        "format-alt": "{:%a, %d. %b  %H}"
     },
     "hyprland/workspaces": {
         "format": "{name}",

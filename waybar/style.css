@@ -35,7 +35,7 @@ window#waybar {
     transition: all 0.2s ease-in-out;
 }
 
-#clock#right {
+#clock{
     margin: 0 15px;
     font-weight: 700;
     font-size: 1.12rem;

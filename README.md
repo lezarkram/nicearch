@@ -1,0 +1,2 @@
+# nicearch
+arch dotfiles

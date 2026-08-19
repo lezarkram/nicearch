@@ -1,6 +1,6 @@
 {
     "layer": "top",
-    "width": 1000,
+    "width": 1920,
     "modules-left": [
         "pulseaudio",
         "cava"

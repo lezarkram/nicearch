@@ -23,3 +23,7 @@
 !waybar/**
 !rofi/
 !rofi/**
+!swaync/
+!swaync/**
+!kitty/
+!kitty/**

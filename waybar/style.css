@@ -6,10 +6,10 @@
 }
 
 window#waybar {
-    background-color: @bg0;
+    background-color: rgba(29, 32, 33, 0.75);;
     color: @blue;
-    border-radius: 0px 0px 5px 5px;
-    border: 1px solid @blue;
+    /* border-radius: 0px 0px 5px 5px; */
+    /* border: 1px solid @blue; */
 }
 
 #workspaces {
@@ -33,6 +33,12 @@ window#waybar {
     background-color: @blue;
     min-width: 1.4rem;
     transition: all 0.2s ease-in-out;
+}
+
+#battery {
+    margin: 0 15px;
+    font-weight: 700;
+    font-size: 1.12rem;
 }
 
 #clock{

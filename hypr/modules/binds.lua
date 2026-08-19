@@ -68,3 +68,9 @@ hl.bind("XF86AudioPrev",  hl.dsp.exec_cmd("playerctl previous"),   { locked = tr
 
 -- Open waybar
 hl.bind(mainMod .. " + SHIFT + tab", hl.dsp.exec_cmd("/home/marc/.config/waybar/scripts/launch.sh"))
+
+-- Save selected area to ~/Pictures/Screenshots AND copy to clipboard
+hl.bind("Print", hl.dsp.exec_cmd([[grim -g "$(slurp)" ~/Pictures/Screenshots/$(date +'%Y-%m-%d_%H-%M-%S').png && cat ~/Pictures/Screenshots/$(date +'%Y-%m-%d_%H-%M-%S').png | wl-copy]]))
+
+-- Save full screen to ~/Pictures/Screenshots
+hl.bind(mainMod .. " + Print", hl.dsp.exec_cmd([[grim ~/Pictures/Screenshots/$(date +'%Y-%m-%d_%H-%M-%S').png]]))

@@ -45,7 +45,8 @@
         }
     },
     "clock": {
-        "format-alt": "{:%a, %d. %b  %H}"
+        "format": "{:%I:%M %p}",
+        "format-alt": "{:%a, %d. %b  %H:%M:%S}"
     },
     "hyprland/workspaces": {
         "format": "{name}",

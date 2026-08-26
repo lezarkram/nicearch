@@ -1,6 +1,8 @@
 # nicearch
 arch dotfiles
-<img width="1920" height="1080" alt="2026-08-19_09-43-41" src="https://github.com/user-attachments/assets/c223f086-47c1-4581-9c25-b2bbe03cfbbc" />
-<img width="1920" height="1080" alt="2026-08-19_09-44-19" src="https://github.com/user-attachments/assets/61cbff9c-c279-405d-a91b-e1ce8aba4ba4" />
-<img width="1920" height="1080" alt="2026-08-19_09-43-22" src="https://github.com/user-attachments/assets/cb6ac5ed-50ed-4842-9753-314c97064f1e" />
-<img width="1920" height="1080" alt="2026-08-19_09-55-00" src="https://github.com/user-attachments/assets/8f3c77ab-a317-4d75-ab77-f0cb637b1561" />
+
+<img width="1920" height="1080" alt="2026-08-27_05-27-04" src="https://github.com/user-attachments/assets/82330ad3-38ef-444c-9e20-9a4a15affc26" />
+<img width="1920" height="1080" alt="2026-08-27_05-26-42" src="https://github.com/user-attachments/assets/e2e4bd32-131e-4953-9588-c7a6a18dd998" />
+<img width="1920" height="1080" alt="2026-08-27_05-27-50" src="https://github.com/user-attachments/assets/f1dbd3ef-237e-470f-8667-3c53f2cdd2c7" />
+<img width="1920" height="1080" alt="2026-08-27_05-29-49" src="https://github.com/user-attachments/assets/b95aa14a-7f00-426b-adb0-b82823d34099" />
+<img width="1920" height="1080" alt="2026-08-27_05-28-03" src="https://github.com/user-attachments/assets/a931e6a2-dae9-4d47-a627-484bd1b8cd33" />

@@ -13,6 +13,7 @@ local menu = "./.config/rofi/type-1/launcher.sh"
 ---------------------
 
 local mainMod = "SUPER" -- Sets "Windows" key as main modifier
+local touchscreen_enabled = true -- Default touchscreen state
 
 -- Example binds, see https://wiki.hypr.land/Configuring/Basics/Binds/ for more
 hl.bind(mainMod .. " + return", hl.dsp.exec_cmd(terminal))
@@ -25,6 +26,14 @@ hl.bind(mainMod .. " + R", hl.dsp.exec_cmd(menu))
 hl.bind(mainMod .. " + P", hl.dsp.window.pseudo())
 hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit"))    -- dwindle only
 hl.bind(mainMod .. " + L", hl.dsp.exec_cmd("hyprlock"))
+
+hl.bind(mainMod .. " + T", function()
+    touchscreen_enabled = not touchscreen_enabled
+    hl.device({
+        name = "elan-touchscreen",
+        enabled = touchscreen_enabled,
+    })
+end)
 
 -- Move focus with mainMod + arrow keys
 hl.bind(mainMod .. " + left",  hl.dsp.focus({ direction = "left" }))
